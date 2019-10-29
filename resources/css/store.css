@@ -1,0 +1,111 @@
+/* store banner styling */
+
+.store-banner-head, .store-banner-text {
+  color: rgb(60, 80, 76);
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 1px 1px 4px rgba(245, 250, 255, .9);
+  font-weight: 700;
+}
+
+.store-banner {
+  width: 60%;
+  height: 12rem;
+  margin: 8rem auto auto auto;
+  padding: 1rem;
+  background-color: rgba(240, 245, 250, .6);
+}
+
+.store-banner-head {
+  font-size: 2rem;
+  margin-bottom: .6rem;
+}
+
+.store-banner-text {
+  font-size: 1.4rem;
+}
+
+/* store banner - tablet styling  */
+@media only screen and ( max-width: 1024px ) {
+  .store-banner {
+    width: 80%;
+    margin: 16rem auto auto auto;
+  }
+}
+
+/* store banner - mobile styling  */
+@media only screen and ( max-width: 510px ) {
+  .store-banner {
+    margin: 8rem auto auto auto;
+  }
+}
+
+/* store item-view styling */
+
+.store-frame {
+  width: 967px;
+  height: auto;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+
+/* store frame - tablet styling  */
+@media only screen and ( max-width: 1024px ) {
+  .store-frame {
+    width: 80%;
+  }
+}
+
+.store-item {
+  width: 24%;
+  height: 400px;
+  margin-bottom: 3rem;
+}
+
+.store-item:hover {
+  box-shadow: 0px 0px 4px rgba(10, 15, 15, .6);
+}
+
+.item-pic {
+  height: 300px;
+  width: 100%;
+  background-image: url('../media/joanna-kosinska-Prfs32wh-o4-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item-title, .item-description, .item-price {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.item-title, .item-price {
+  margin-top: .6rem;
+  color: rgb(10, 5, 5);
+}
+
+.item-description {
+  color: rgb(120, 125, 130);
+}
+
+.item-price {
+  font-weight: 800;
+}
+
+
+/* store-item - tablet styles  */
+@media only screen and ( max-width: 1024px ) {
+  .store-item {
+    width: 44%;
+  }
+}
+
+@media only screen and (max-width: 510px ) {
+  .store-item {
+    width: 96%;
+  }
+}
