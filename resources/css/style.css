@@ -26,6 +26,11 @@
   line-height: 2rem;
 }
 
+.reader {
+  position: absolute;
+  right: 9999px;
+}
+
 /* universal styles - tablet */
 @media only screen and (max-width: 1024px) {
   .container {
